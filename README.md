@@ -9,3 +9,6 @@ SMD Version with classic expansion header
 - MCLK is switchable between input and output
 - MCLK out is devidable: 1,2,4,8,16,32,64,128,256,512,1024,2048,4096
 - 3,5mm stereo jack instead of chinch
+
+## Status
+Ready to rumble
