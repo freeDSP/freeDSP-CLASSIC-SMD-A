@@ -3264,7 +3264,7 @@
   (gr_text "MCLK OUT" (at 76 55.75 270) (layer B.Cu)
     (effects (font (size 0.8 0.8) (thickness 0.2)) (justify right mirror))
   )
-  (gr_text "exp 5V" (at 90 98 180) (layer B.Cu)
+  (gr_text "ext 5V" (at 90 98 180) (layer B.Cu)
     (effects (font (size 1.5 1.5) (thickness 0.3)) (justify mirror))
   )
   (gr_text USBi (at 84.4 85.4 270) (layer B.Cu)
