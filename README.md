@@ -10,5 +10,14 @@ SMD Version with classic expansion header
 - MCLK out is devidable: 1,2,4,8,16,32,64,128,256,512,1024,2048,4096
 - 3,5mm stereo jack instead of chinch
 
-## Status
-Ready to rumble
+## V1.0
+- first official release of freeDSP CLASSIC SMD RevA
+- a few minor changes since alpha.
+
+## V1.1
+- fixed a major ground plane issue
+- added WP jumper
+- some more minor fixes and cosmetic changes
+
+## v1.2
+- one more ground plane fix
