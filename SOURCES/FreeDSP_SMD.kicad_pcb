@@ -1,9 +1,6 @@
-(kicad_pcb (version 4) (host pcbnew 4.0.7)
+(kicad_pcb (version 20171130) (host pcbnew "(5.0.0)")
 
   (general
-    (links 244)
-    (no_connects 6)
-    (area 21.224999 21.749999 94.945 106.250001)
     (thickness 1.6)
     (drawings 30)
     (tracks 758)
@@ -69,6 +66,9 @@
     (pcbplotparams
       (layerselection 0x010f0_80000001)
       (usegerberextensions false)
+      (usegerberattributes false)
+      (usegerberadvancedattributes false)
+      (creategerberjobfile false)
       (excludeedgelayer true)
       (linewidth 0.100000)
       (plotframeref false)
@@ -77,8 +77,7 @@
       (useauxorigin true)
       (hpglpennumber 1)
       (hpglpenspeed 20)
-      (hpglpendiameter 15)
-      (hpglpenoverlay 2)
+      (hpglpendiameter 15.000000)
       (psnegative false)
       (psa4output false)
       (plotreference true)
@@ -90,7 +89,7 @@
       (mirror false)
       (drillshape 0)
       (scaleselection 1)
-      (outputdirectory ../GERBER/))
+      (outputdirectory "../GERBER/"))
   )
 
   (net 0 "")
@@ -595,7 +594,7 @@
     (pad 26 thru_hole oval (at 2.54 30.48 90) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask F.SilkS)
       (net 44 "Net-(P3-Pad2)"))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x13.wrl
-      (at (xyz 0.05 -0.6 0))
+      (offset (xyz 1.269999980926514 -15.23999977111816 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -759,7 +758,7 @@
     (pad 4 thru_hole oval (at 2.54 -2.54) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 79 MCLK))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x02.wrl
-      (at (xyz 0.05 -0.05 0))
+      (offset (xyz 1.269999980926514 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -833,7 +832,7 @@
     (pad 10 thru_hole oval (at 2.54 -10.16) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 1 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x05.wrl
-      (at (xyz 0.05 -0.2 0))
+      (offset (xyz 1.269999980926514 -5.079999923706055 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -1052,7 +1051,7 @@
     (pad 22 thru_hole oval (at 2.54 -25.4) (size 1.7272 1.7272) (drill 1.016) (layers *.Cu *.Mask B.SilkS)
       (net 1 GND))
     (model Pin_Headers.3dshapes/Pin_Header_Straight_2x11.wrl
-      (at (xyz 0.05 -0.5 0))
+      (offset (xyz 1.269999980926514 -12.69999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3045,7 +3044,7 @@
     (pad 2 thru_hole oval (at 0 2.54 270) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 57 +5V))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3084,7 +3083,7 @@
     (pad 2 thru_hole oval (at 0 2.54 180) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 70 MP10))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3123,7 +3122,7 @@
     (pad 2 thru_hole oval (at 0 2.54 135) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 71 MP11))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3162,7 +3161,7 @@
     (pad 2 thru_hole oval (at 0 2.54 90) (size 1.7 1.7) (drill 1) (layers *.Cu *.Mask)
       (net 1 GND))
     (model ${KISYS3DMOD}/Pin_Headers.3dshapes/Pin_Header_Straight_1x02_Pitch2.54mm.wrl
-      (at (xyz 0 -0.05 0))
+      (offset (xyz 0 -1.269999980926514 0))
       (scale (xyz 1 1 1))
       (rotate (xyz 0 0 90))
     )
@@ -3171,7 +3170,7 @@
   (module alexmod:JIS_C_6560_3.5 (layer F.Cu) (tedit 5A76E2EC) (tstamp 573AE103)
     (at 24 51 90)
     (path /5541666C)
-    (fp_text reference K3 (at -0.000424 1.0003 360) (layer F.SilkS)
+    (fp_text reference K3 (at -0.000424 1.0003) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value OUT12 (at -0.000424 13.5003 90) (layer F.SilkS)
@@ -3201,7 +3200,7 @@
   (module alexmod:JIS_C_6560_3.5 (layer F.Cu) (tedit 5A76E2EC) (tstamp 573AE0F0)
     (at 24 40 90)
     (path /5541646E)
-    (fp_text reference K2 (at -0.000424 1.0003 360) (layer F.SilkS)
+    (fp_text reference K2 (at -0.000424 1.0003) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value OUT34 (at -0.000424 13.5003 90) (layer F.SilkS)
@@ -3231,7 +3230,7 @@
   (module alexmod:JIS_C_6560_3.5 (layer F.Cu) (tedit 5A76E2EC) (tstamp 573AE0DD)
     (at 24 69.25 90)
     (path /55416672)
-    (fp_text reference K1 (at -0.000424 1.0003 360) (layer F.SilkS)
+    (fp_text reference K1 (at -0.000424 1.0003) (layer F.SilkS)
       (effects (font (size 1 1) (thickness 0.15)))
     )
     (fp_text value IN12 (at -0.000424 13.5003 90) (layer F.SilkS)
